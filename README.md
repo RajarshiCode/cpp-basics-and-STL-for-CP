@@ -37,7 +37,7 @@ int main()
 ### `you will get the .vscode folder`
 ![Alt text](image-2.png)
 
-### `open and paste the code. Save and run again`
+### `open c_cpp_properties.json and paste the code. Save and run again`
 
 ```json
 {
