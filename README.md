@@ -5,19 +5,19 @@ This repo will help the beginner(like me😁) to kick start there CP journey.
 
 If like this repo, then make sure you give a star and fork it.
 
-## Badges
+### Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-## Prerequisites
+### Prerequisites
 
 - Install vs code.
 
 - Install gcc/g++ compiler ie, *`MINGW-64`*
 
-## Skeleton Code or The Basic Code for CP
+### Skeleton Code or The Basic Code for CP
 
 ```c++
 #include<bits/stdc++.h>
@@ -28,12 +28,12 @@ int main()
     return 0;
 }
 ```
-## If by chance if you are getting any error like
+### If by chance if you are getting any error like
     💡 Edit "includePath" setting or,
     💡 Enable all error squiggles or,
     💡 Disable error squiggles
 
-## Then open c_cpp_properties.json from .vscode folder and paste the code. Save and run again
+### Then open c_cpp_properties.json from .vscode folder and paste the code. Save and run again
 
 ```json
 {
@@ -59,4 +59,4 @@ int main()
 }
 ```
 
-## Thanks🤝🏻
+### Thanks🤝🏻
