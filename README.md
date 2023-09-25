@@ -29,13 +29,13 @@ int main()
 }
 ```
 ## `If by chance if you are getting any error like:- `
-![Alt text](image.png)
+![Alt text](./assets/image-1.png)
 
 ### `Then click on 'Edit.....' option`
-![Alt text](image-1.png)
+![Alt text](./assets/image.png)
 
 ### `you will get the .vscode folder`
-![Alt text](image-2.png)
+![Alt text](./assets/image-2.png)
 
 ### `open c_cpp_properties.json and paste the code. Save and run again`
 
