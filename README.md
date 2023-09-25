@@ -28,16 +28,12 @@ int main()
     return 0;
 }
 ```
-## `If by chance if you are getting any error like:- `
-![Alt text](./assets/image-1.png)
+## If by chance if you are getting any error like
+    💡 Edit "includePath" setting or,
+    💡 Enable all error squiggles or,
+    💡 Disable error squiggles
 
-### `Then click on 'Edit.....' option`
-![Alt text](./assets/image.png)
-
-### `you will get the .vscode folder`
-![Alt text](./assets/image-2.png)
-
-### `open c_cpp_properties.json and paste the code. Save and run again`
+## Then open c_cpp_properties.json from .vscode folder and paste the code. Save and run again
 
 ```json
 {
