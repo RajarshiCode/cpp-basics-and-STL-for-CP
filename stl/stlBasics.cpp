@@ -16,13 +16,31 @@ using namespace std;
     
         Containers are of 4 types:-
         1. Sequential
-            1.
-            2.
-            3.
-            4.
+            1. vector
+            2. list
+            3. dequeue
+            4. array
+            5. forward_list
+
+
         2. Adapter
+            1. queue
+            2. priority_queue
+            3. stack
+
+
         3. Associative
+            1. set
+            2. multiset
+            3. map
+            4. multimap
+
+
         4. Unordered Associative
+            1. unordered set
+            2. unordered map
+            3. unordered multimap
+            4. unordered multiset
     
     
     
@@ -32,6 +50,7 @@ using namespace std;
 int main()
 {
 
+    
     
     cout<<endl;
     return 0;

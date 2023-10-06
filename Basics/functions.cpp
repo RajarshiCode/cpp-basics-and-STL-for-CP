@@ -6,8 +6,6 @@ using namespace std;
     Functions increases readability
     Functions can be used to replace the same line of code while using for multiple times.
 */
-
-
 void doSomething1(string s){
     s[0] = 't';
     cout<<s<<'\t';
@@ -16,10 +14,6 @@ void doSomething2(string &s){
     s[0] = 't';
     cout<<s<<'\t';
 }
-
-
-
-
 int main()
 {
     string s1 = "raj";

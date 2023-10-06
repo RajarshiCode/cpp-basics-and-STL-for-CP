@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
 
+// #include<iostream>
+// #include<string>
+// #include<math.h>
 /**
  * having an error in #include<bits/stdc++.h>
  * 
@@ -15,9 +18,6 @@
     "compilerPath": "C:/MinGW/bin/g++.exe",
  * 
  */
-// #include<iostream>
-// #include<string>
-// #include<math.h>
 
 using namespace std;
 int main()
@@ -31,11 +31,10 @@ int main()
 
     /**
      * for integers we will be using 
-     * int  10^8, long int 10^12, long long 10^18
+     * int  10^8, long  10^12, long long 10^18
      * 
      * for decimal values we will be using     * 
-     * float, double, long double
-     * 
+     * float, double, long double     * 
      * 
      * for string and getline
      * 
