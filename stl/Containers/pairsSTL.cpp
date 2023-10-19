@@ -52,6 +52,9 @@ int main()
     cout<<p6.first.first<<" "<<p6.first.second<<endl;
     cout<<p6.second.first<<"  "<<p6.second.second.first<<" "<<p6.second.second.second<<endl;
 
+    pair <string, string> p7 = {"Rajarshi Das pin = 712232", "Rupak Das pin = 123456"};
+    cout<<p7.first<<'\t'<<p7.second<<endl;
+
 
     return 0;
 }
