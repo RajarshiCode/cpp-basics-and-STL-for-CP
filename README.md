@@ -5,7 +5,7 @@ This repo will help the beginner(like me😁) to kick start there CP journey.
 
 If like this repo, then make sure you give a star and fork it.
 
-### Badges
+### Licenses
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)

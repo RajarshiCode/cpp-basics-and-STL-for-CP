@@ -15,6 +15,7 @@ using namespace std;
         STL stands for standard template library which contains a lot of pre-defined templates in terms of containers and classes which makes it very easy for developers or programmers to implement different data structures easily without having to write complete code and worry about space-time complexities.
     
         Containers are of 4 types:-
+        
         1. Sequential
             1. vector
             2. list

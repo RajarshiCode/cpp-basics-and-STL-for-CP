@@ -3,7 +3,7 @@ using namespace std;
 
 /*
     array is always passed with the referecne
-    but vectors, list, maps and others must be passed using the & sign.
+    but vectors, list, maps and others must be accepted  using the & sign during the value catching .
 
 
 */
