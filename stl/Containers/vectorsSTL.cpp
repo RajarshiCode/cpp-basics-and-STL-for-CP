@@ -11,7 +11,7 @@ using namespace std;
 
     whenever we need to increase the size of the container we can do that.
 
-    if there is a requirement where you don't the size of required data structure
+    if there is a requirement where you don't know the size of required data structure
     that's where the vector comes into .
 
     Queue, list, map, set, have same functions like vectors.
@@ -22,11 +22,15 @@ using namespace std;
     
 
     AID
-        https://www.techiedelight.com/print-vector-cpp/  in this yu will also get some questions, might solve later
+        https://www.techiedelight.com/print-vector-cpp/  in this you will also get some questions, might solve later
 
         https://www.geeksforgeeks.org/iterators-c-stl/
 
         https://www.geeksforgeeks.org/vector-rbegin-and-rend-function-in-c-stl/
+
+
+    MUST READ 
+        https://www.geeksforgeeks.org/gfacts-why-vector-size-1-gives-garbage-value/    
 
 */
 
@@ -39,7 +43,7 @@ int main()
         cout<<*it<<' ';    
     cout<<endl<<endl;
 
-    for(auto &it: v)
+    for(auto &it: v)//by this & we can actually manipulate the values in the vector
         cout<<it<<' '; 
     cout<<endl<<"..........................."<<endl<<endl;      
 
@@ -244,5 +248,45 @@ int main()
 
 
     cout<<endl;
+
+
+
+    /* USER DEFINED VECTOR PAIR
+    #include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter the size of the vector pair = ";
+    cin>>n;
+    cout<<endl;
+    vector <pair<int, int>> v(n);
+    cout<<"Enter the values:"<<endl;
+    for(auto &it: v)
+    {
+        
+        cout<<"First value of pair = ";
+        cin>>it.first;
+    
+        cout<<"Second value of pair = ";
+        cin>>it.second;
+        
+    }
+    
+    cout<<"The entered pair values:"<<endl;
+    for(auto it: v)
+        cout<<'{'<<it.first<<','<<it.second<<'}'<<endl;
+    
+    
+
+
+    return 0;
+}
+    
+    
+    
+    **/
     return 0;
 }
