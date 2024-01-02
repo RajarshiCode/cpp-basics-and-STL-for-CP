@@ -124,7 +124,7 @@ int main()
 
         
     // v.rend() points to the position before the first index.
-    // v.begin() points to the position after  the last index.
+    // v.rbegin() points to the position after  the last index.
     for(auto it3 = v6.rbegin(); it3!= v6.rend(); it3++) // this is going to print in a revrse order
         cout<<*it3<<' ';
     cout<<endl<<".........................."<<endl;   
