@@ -1,5 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+/*
+https://www.geeksforgeeks.org/java-string-programs/
+
+
+
+*/
+
+
+
+
+
 int main()
 {
     string s = "rajarshi das";
