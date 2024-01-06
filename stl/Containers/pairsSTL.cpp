@@ -43,7 +43,7 @@ int main()
     pair<int, int> ar1[3] = {{1, 2}, {3, 4}, {5, 6}};
     for (auto it : ar1)
         cout << it.first << '\t' << it.second << endl;
-    for (auto &it : ar1)//using the & will let you access the memory location and you can also manipulate it in no time.
+    for (auto &it : ar1) // using the & will let you access the memory location and you can also manipulate it in no time.
     {
         it.first *= 2;
         it.second *= 2;
@@ -64,7 +64,8 @@ int main()
     mp[56] = 61;
 
     for (auto it : mp)
-        cout << it.first << '\t' << it.second << endl<< endl;
+        cout << it.first << '\t' << it.second << endl
+             << endl;
 
     // ANOTHER MAP SNIPPET
     map<int, vector<int>> mp1;
@@ -91,7 +92,8 @@ int main()
         there comes the nested property of the pairs, that means we can use the pairs, inside a pair.
 
     */
-    cout << endl<< "Nested Pairs" << endl;
+    cout << endl
+         << "Nested Pairs" << endl;
     pair<int, pair<int, int>> p5 = {6, {8, 9}};
 
     pair<pair<int, int>, pair<int, pair<int, int>>> p6 = {p1, p5};
