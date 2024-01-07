@@ -17,31 +17,31 @@ using namespace std;
         Containers are of 4 types:-
         
         1. Sequential
-            1. vector
-            2. list
-            3. dequeue
-            4. array
-            5. forward_list
+            1. vector : - Dynamic contiguous array (class template)
+            2. list : - Doubly-linked list (class template)
+            3. dequeue : - Double-ended queue (class template)
+            4. array : - Static contiguous array (class template)
+            5. forward_list : - Singly-linked list (class template)
 
 
         2. Adapter
-            1. queue
-            2. priority_queue
-            3. stack
+            1. queue : - Adapts a container to provide queue (FIFO data structure) (class template).
+            2. priority_queue : - Adapts a container to provide priority queue (class template). 
+            3. stack : - Adapts a container to provide stack (LIFO data structure) (class template).
 
 
         3. Associative
-            1. set
-            2. multiset
-            3. map
-            4. multimap
+            1. set : - Collection of unique keys, sorted by keys (class template)                        
+            2. multiset : - Collection of keys, sorted by keys (class template)
+            3. map : - Collection of key-value pairs, sorted by keys, keys are unique (class template).
+            4. multimap : - Collection of key-value pairs, sorted by keys 
 
 
         4. Unordered Associative
-            1. unordered set
-            2. unordered map
-            3. unordered multimap
-            4. unordered multiset
+            1. unordered set : - Collection of unique keys, hashed by keys. (class template)
+            2. unordered map : - Collection of key-value pairs, hashed by keys, keys are unique. (class template)
+            3. unordered multimap : - Collection of key-value pairs, hashed by keys (class template)
+            4. unordered multiset : - Collection of keys, hashed by keys (class template)
     
     
     
