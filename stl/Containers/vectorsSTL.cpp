@@ -3,7 +3,7 @@ using namespace std;
 /*
     int ar[5] ={.......};
     now if i want to add some more elements, i can't.
-    i cannot modify the array, because it is static.
+    I cannot modify the array, because it is static.
     Arrays are constant in size.
 
     Now for this reason we have vectors.
@@ -12,7 +12,7 @@ using namespace std;
     whenever we need to increase the size of the container we can do that.
 
     if there is a requirement where you don't know the size of required data structure
-    that's where the vector comes into .
+    that's where the vector comes into.
 
     Queue, list, map, set, have same functions like vectors.
 

@@ -66,7 +66,7 @@ int main()
     for (auto it : mp)
         cout << it.first << '\t' << it.second << endl
              << endl;
-
+    cout<<"Map size = "<<mp.size()<<endl;        
     // ANOTHER MAP SNIPPET
     map<int, vector<int>> mp1;
 

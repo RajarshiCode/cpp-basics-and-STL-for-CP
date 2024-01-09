@@ -38,9 +38,13 @@ int main()
         it.first += 2;
         it.second -= 5;
     }
-    cout << "Traversing after ma manipulation the pair array:" << endl;
+    cout << "Traversing after  manipulation the pair array:" << endl;
     for (auto it : ar)
         cout << it.first << '\t' << it.second << endl;
 
-    return 0;
+    pair<string, string> str;
+    str = {"Rajarshi Das, age 22", "lives in Hindmotor"};
+    cout << str.first << '\t' << str.second << endl;
+
+        return 0;
 }
