@@ -36,7 +36,7 @@ using namespace std;
 
 int main()
 {
-    vector <int> v; // this creates 
+    vector <int> v; // declaration
     v.push_back(1);
     v.emplace_back(2);// bit faster than push_back
     for(auto it = v.begin(); it!= v.end(); it++) // was writing ! = but it will be !=.   

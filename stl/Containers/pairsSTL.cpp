@@ -11,6 +11,11 @@ using namespace std;
 
     pair<pair<int, int>,pair<int, int>> p1 = {{1,5},{6,8}};
 
+    MEMBER FUNCTION
+    make_pair() - pair1 = make_pair(12,13);
+    swap() - pair1.swap(pair2)
+    tie() - tie(a,b) = pair1  where a and b are two variables
+
     AID:-
         https://www.geeksforgeeks.org/how-to-iterate-through-a-vector-without-using-iterators-in-c/
 
@@ -66,13 +71,13 @@ int main()
     for (auto it : mp)
         cout << it.first << '\t' << it.second << endl
              << endl;
-    cout<<"Map size = "<<mp.size()<<endl;        
+    cout << "Map size = " << mp.size() << endl;
     // ANOTHER MAP SNIPPET
     map<int, vector<int>> mp1;
 
     vector<int> temp;
     // mp1[50]=temp;
-
+    // https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
     mp1[60] = {10, 2, 3};
 
     mp1[70] = {10, 20, 30};
@@ -103,6 +108,36 @@ int main()
 
     pair<string, string> p7 = {"Rajarshi Das pin = 712232", "Rupak Das pin = 123456"};
     cout << p7.first << '\t' << p7.second << endl;
+
+    // swap function
+    cout << endl
+         << "Swapping between Pairs" << endl;
+    pair<int, int> p8, p9;
+    p8 = {10, 20};
+    p9 = {80, 90};
+    cout << "Before" << endl;
+    cout << "1st pair - " << p8.first << '\t' << p8.second << endl;
+    cout << "2nd pair - " << p9.first << '\t' << p9.second << endl;
+    p8.swap(p9);
+    cout << "After" << endl;
+    cout << "1st pair - " << p8.first << '\t' << p8.second << endl;
+    cout << "2nd pair - " << p9.first << '\t' << p9.second << endl;
+
+    // tie tunction
+    pair<int, int> p10 = {55, 75};
+    int val1, val2;
+    tie(val1, val2) = p10;
+    cout << "Unpacking - "
+         << "First value = " << val1 << '\t' << "Second value = " << val2 << endl;
+
+    
+    pair<int, pair<int, char>> p11 = {10, {20, 'A'}};
+    int x, y;
+    char z;
+    tie(x, ignore) = p11;
+    tie(y, z) = p11.second;
+    cout << "Unpacking - "
+         << "First value - " << x << '\t' << "Second value - " << y << '\t' << "Third value - " << z << endl;
 
     return 0;
 }
