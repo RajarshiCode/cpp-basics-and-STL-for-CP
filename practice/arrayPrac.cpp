@@ -17,6 +17,16 @@ void rev(int ar[], int n){
 
 void sortIt(int ar[], int n){
     sort(ar+0, ar+n);
+    /*
+        Ascending order
+        sort(ar, ar+n);
+
+
+        
+        decending order
+        sort(ar,ar+n, greater<int>());
+    
+    */
 }
 
 int main()
