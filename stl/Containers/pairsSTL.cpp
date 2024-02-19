@@ -19,6 +19,8 @@ using namespace std;
     AID:-
         https://www.geeksforgeeks.org/how-to-iterate-through-a-vector-without-using-iterators-in-c/
 
+        # just checking whether it is working or not
+
 
 */
 
