@@ -1,6 +1,6 @@
 # CPP Basics and STL for CP
 
-![App Screenshot](/pic1.png)
+<!-- ![App Screenshot](/pic1.png) -->
 
 Here in this repo, you will find CPP basics and STL codes for beginners.
 This repo will help the beginner(like me😁) to kick start there CP journey.
