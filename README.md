@@ -62,9 +62,9 @@ int main()
 ```
 <!-- ### [Tools and Technologies Used](./practice/arrayPrac.cpp) -->
 
-### Navigation and Contents
+<!-- ### Navigation and Contents
 ### 1. [Basics](./Basics/)
 ### 2. [Just Practice](./practice//)
-### 3. [Standard Template Library](./stl//)
+### 3. [Standard Template Library](./stl//) -->
 
 ### Thanks🤝🏻
