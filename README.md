@@ -58,7 +58,7 @@ int main()
     "version": 4
 }
 ```
-### [Tools and Technologies Used](./practice/)
+<!-- ### [Tools and Technologies Used](./practice/arrayPrac.cpp) -->
 
 
 ### Thanks🤝🏻
