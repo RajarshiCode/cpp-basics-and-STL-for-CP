@@ -58,5 +58,7 @@ int main()
     "version": 4
 }
 ```
+### [Tools and Technologies Used](./practice/)
+
 
 ### Thanks🤝🏻
