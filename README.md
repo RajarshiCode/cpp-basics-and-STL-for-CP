@@ -3,7 +3,7 @@
 <!-- ![App Screenshot](/pic1.png) -->
 
 Here in this repo, you will find CPP basics and STL codes for beginners.
-This repo will help the beginner(like me😁) to kick start there CP journey.
+This repo will help the beginner(like me😁) to kick start their CP journey.
 
 If like this repo, then make sure you give a star and fork it.
 
@@ -21,9 +21,8 @@ If like this repo, then make sure you give a star and fork it.
 
 ### Skeleton Code or The Basic Code for CP
 
-```c++
+```C++
 #include<bits/stdc++.h>
-
 int main()
 {
     cout<<endl;
