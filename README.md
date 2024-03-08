@@ -5,7 +5,7 @@
 Here in this repo, you will find CPP basics and STL codes for beginners.
 This repo will help the beginner(like me😁) to kick start their CP journey.
 
-If like this repo, then make sure you give a star and fork it.
+If you like this repo, then make sure you give it a star and fork it too.
 
 ### Licenses
 

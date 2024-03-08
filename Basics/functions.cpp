@@ -1,4 +1,5 @@
-#include<iostream>
+// #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 /*
     Functions are block of codes or group of lines that perform a particular task for you.
