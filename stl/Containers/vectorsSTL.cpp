@@ -12,7 +12,7 @@ using namespace std;
     whenever we need to increase the size of the container we can do that.
 
     if there is a requirement where you don't know the size of required data structure
-    that's where the vector comes into.
+    that's where the vector comes into play.
 
     Queue, list, map, set, have same functions like vectors.
 
@@ -61,12 +61,8 @@ int main()
 
 
 
-
-
-
-
     vector <int> v1(5,100); // 5 instances of 100 inside the vector
-    for(auto &it: v1)
+    for(auto &it: v1) // you can just omit the & also, you will get the same output everytime
         cout<<it<<' '; 
     // after this if i do push_back or emplace_back then vector will automatically increase its size. Now, for this reason we do recommend to use the vector container    
     cout<<endl<<"......................"<<endl;
@@ -191,7 +187,7 @@ int main()
     for(auto it6:v8)
         cout<<it6<<' ';
     cout<<endl<<".........................."<<endl;     
-    v8.insert(v8.begin()+2,2,200);
+    v8.insert(v8.begin()+2,2,200); // two instances of 200
     for(auto it6:v8)
         cout<<it6<<' ';
     cout<<endl<<".........................."<<endl; 
@@ -231,7 +227,11 @@ int main()
     for(auto it7:v12)
         cout<<it7<<' ';
     cout<<endl<<".........................."<<endl; 
-    v12.swap(v11);
+
+
+    v12.swap(v11); // here swapping
+
+
     for(auto it7:v11)
         cout<<it7<<' ';
     cout<<endl<<".........................."<<endl; 
