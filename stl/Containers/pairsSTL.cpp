@@ -41,9 +41,13 @@ int main()
     pair<int, int> p4(58, 69);
     cout << p4.first << " " << p4.second << endl;
 
+    //you can also write like this ------------------------------    
+    // pair<int,pair<int,int>> p4(5,{6,8});
+    // cout<<"Fourth pair:   "<<p4.first<<'\t'<<p4.second.first<<'\t'<<p4.second.second<<endl;
+
     // pair array
     pair<int, int> arr[5] = {{5, 9}, {8, 3}, {21, 56}};
-    for (auto &it : arr)
+    for (auto &it : arr) // here i could have used it also instead of &it, will give the same output.
         cout << it.first << " " << it.second << endl;
 
     // updating the values and traversing a pair array
@@ -77,7 +81,7 @@ int main()
     // ANOTHER MAP SNIPPET
     map<int, vector<int>> mp1;
 
-    vector<int> temp;
+    //vector<int> temp;
     // mp1[50]=temp;
     // https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
     mp1[60] = {10, 2, 3};
@@ -94,6 +98,29 @@ int main()
         cout << endl;
     }
 
+
+    /*
+    
+    map<int,vector<int>> mp2;
+    mp2[1] = {10,20,30,40,50,60,50};
+    mp2[2] = {10};
+    mp2[3] = {10,20,30,40,50,60,50};
+    mp2[4] = {10};
+    mp2[5] = {10,20,30,40,50,60,50};
+    mp2[6] = {10,20,30,40};
+    mp2[7] = {10,20,30,40,50,60,50};
+    mp2[8] = {10,20,30,40};
+    
+    for(auto it : mp2)
+    {
+        cout<<it.first<<" -> ";
+        for(auto it2: it.second)
+            cout<<it2<<'\t';
+        cout<<endl;
+    }
+    
+    
+    */
     /*
         what if someone ask you to store, more than two values in the pairs?
         there comes the nested property of the pairs, that means we can use the pairs, inside a pair.
@@ -141,5 +168,10 @@ int main()
     cout << "Unpacking - "
          << "First value - " << x << '\t' << "Second value - " << y << '\t' << "Third value - " << z << endl;
 
+
+    //just fun
+
+    // pair< pair<pair<int,int>,pair<int,int>> , pair<int, pair<int,int>>> gp = {{{11,13},{4,10}},{5,{6,9}}};
+    // cout<<endl<<"The Grand Finale : "<<gp.first.first.first;
     return 0;
 }

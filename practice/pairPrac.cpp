@@ -46,5 +46,15 @@ int main()
     str = {"Rajarshi Das, age 22", "lives in Hindmotor"};
     cout << str.first << '\t' << str.second << endl;
 
+    // 11/03/2024
+
+    /*
+        pair<string, pair<string,string>> p11 = {"Dulal",{"Chandra","Chakraborty"}};
+        string s1,s2,s3;
+        tie(s1,ignore) = p11;
+        tie(s2,s3) = p11.second;    
+        cout<<s1<<" "<<s2<<" "<<s3;    
+    
+    */
         return 0;
 }
