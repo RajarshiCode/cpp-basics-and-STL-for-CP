@@ -19,7 +19,7 @@ using namespace std;
         1. Sequential
             1. vector : - Dynamic contiguous array (class template)
             2. list : - Doubly-linked list (class template)
-            3. dequeue : - Double-ended queue (class template)
+            3. deque : - Double-ended queue (class template)
             4. array : - Static contiguous array (class template)
             5. forward_list : - Singly-linked list (class template)
 

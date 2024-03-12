@@ -79,6 +79,11 @@ int main()
     list<int> l6(5);
     int val=20;
     fill(l6.begin(),l6.end(),val);
+
+
+    l6.back();
+    l6.front();
+
     
     l6.pop_back(); // will delete the last element
     l6.pop_front(); // will delete the front element
