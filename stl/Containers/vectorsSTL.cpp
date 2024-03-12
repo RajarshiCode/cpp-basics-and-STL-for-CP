@@ -254,10 +254,10 @@ int main()
     /* USER DEFINED VECTOR PAIR
     #include <bits/stdc++.h>
 
-using namespace std;
+    using namespace std;
 
-int main()
-{
+    int main()
+    {
     int n;
     cout<<"Enter the size of the vector pair = ";
     cin>>n;
@@ -283,7 +283,8 @@ int main()
 
 
     return 0;
-}
+    
+    }
     
     
     
