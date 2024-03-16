@@ -3,7 +3,7 @@ using namespace std;
 /*
 
 
-    
+
     SYNTAX :-
     deque <datatype> variable_name;
 
@@ -13,6 +13,8 @@ using namespace std;
 
     AID :-
     https://stackoverflow.com/questions/1436020/whats-the-difference-between-deque-and-list-stl-containers
+    
+    https://www.geeksforgeeks.org/deque-cpp-stl/
 */
 
 
@@ -27,8 +29,8 @@ int main()
 
 
 
-    d.front();
-    d.back();
+    cout<<d.front()<<'\t';
+    cout<<d.back();
     cout<<endl;
     return 0;
 }
