@@ -14,7 +14,7 @@ using namespace std;
         * emplace
         * empty
         * top
-        * pop : here it will delete from the front position.
+        * pop : here it will delete from the back/top position.
         * push
         * size
         * swap
