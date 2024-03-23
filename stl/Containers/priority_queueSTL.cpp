@@ -3,6 +3,7 @@ using namespace std;
 
 /*
     element which has the largest value stays at the top. In c++ stl by default it is the largest element.
+    priority_queue is the implementation of the heap data structure. Basically binary tree implementation.
 
 
 
@@ -10,17 +11,24 @@ using namespace std;
     SYNTAX:-
     priority_queue <datatype> variable_name;
 
+
     AID:-
     https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/
 
+    https://medium.com/@taohidulii/min-priority-queue-in-c-7e64bd01359c
+
+    https://www.geeksforgeeks.org/heap-data-structure/ 
+
+
+
     Function that can be used in priority_queue:-
     * emplace
-    * pop
-    * push
+    * pop :- O(log n)
+    * push :- O(log n)
     * empty
     * size
     * swap
-    * top
+    * top :- O(1)
 
 */
 int main()
@@ -34,7 +42,7 @@ int main()
 
     priority_queue<int> pq2;
     pq2.swap(pq);
-    cout<<"Normal Priority Queue: ";
+    cout<<"Normal Priority Queue/max heap: ";
     while(!pq2.empty())
     {
         cout<<pq2.top()<<'\t';
@@ -52,7 +60,7 @@ int main()
 
     priority_queue<int,vector<int>,greater<int>> pq4;
     pq4.swap(pq3);
-    cout<<"Min Priority Queue: ";
+    cout<<"Min Priority Queue/min heap: ";
     while(!pq4.empty())
     {
         cout<<pq4.top()<<'\t';
