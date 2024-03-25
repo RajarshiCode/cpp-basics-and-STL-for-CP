@@ -1,6 +1,6 @@
 # CPP Basics and STL for CP
 
-<!-- ![App Screenshot](/pic1.png) -->
+![App Screenshot](/pic1.png)
 
 Here in this repo, you will find CPP basics and STL codes for beginners.
 This repo will help the beginner(like me😁) to kick start their CP journey.
@@ -68,10 +68,11 @@ int main()
 
 ## Contents
 ### 1. Basics [`🤝🏻`](./Basics/)
-### 2. Containers [`🤝🏻`](./stl/Containers/)
-### 3. Functions [`🤝🏻`](./stl/functions/)
-### 3. Extras [`🤝🏻`](./stl/extras/)
-
-
+- ### some practice [`🤝🏻`](./practice/)
+### 2. Standard Template Librabry [`🤝🏻`](./stl/)
+- ### Containers [`🤝🏻`](./stl/Containers/)
+- ### Functions [`🤝🏻`](./stl/functions/)
+- ### Extras [`🤝🏻`](./stl/extras/)
+##
 
 ### Thanks🤝🏻
