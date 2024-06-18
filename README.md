@@ -34,7 +34,7 @@ int main()
     💡 Enable all error squiggles or,
     💡 Disable error squiggles
 
-### Then open c_cpp_properties.json from .vscode folder and paste the code. Save and run again
+### Or you can just open c_cpp_properties.json from .vscode folder and paste the code. Save and run again
 
 ```json
 {
